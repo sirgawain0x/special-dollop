@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Contacts | UpCreators</title>
+        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
+        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+        <link rel="stylesheet" href="css/contacts.min.css" />
+    </head>
+    <body>
+        <header class="header" data-page="contacts" data-page-parent="pages">
+            <div class="header_bg">
+                <picture>
+                    <source data-srcset="img/gradients/10.webp" srcset="img/gradients/10.webp" type="image/webp" />
+                    <img class="lazy" data-src="img/gradients/10.png" src="img/gradients/10.png" alt="media" />
+                </picture>
+            </div>
+            <div class="container d-flex">
+                <a class="header_logo logo" href="index.html">
+                    <span class="header_logo-wrapper">
+                        <img src="svg/logo--black.svg" alt="UpCreators" />
+                    </span>
+                    <span class="text">Creators</span>
+                </a>
+                <nav class="header_nav text--medium text--md collapse" id="headerMenu">
+                    <ul class="header_nav-list">
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="index.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#homeMenu"
+                                data-trigger="dropdown"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="homeMenu"
+                                data-page="home"
+                                data-page-parent="home"
+                            >
+                                <span class="nav-item_text"> Home </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="homeMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="home"
+                                            data-page-parent="home"
+                                            href="index.html"
+                                            data-main="true"
+                                        >
+                                            Home Agency
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="streamers"
+                                            data-page-parent="home"
+                                            href="streamers.html"
+                                        >
+                                            Home Streamers
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="home-shop"
+                                            data-page-parent="home"
+                                            href="index-shop.html"
+                                        >
+                                            Home Shop
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+                                <span class="nav-item_text">About</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="#"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#pagesMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="pages"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="pagesMenu"
+                            >
+                                <span class="nav-item_text"> Pages </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="pagesMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="faq" data-page-parent="pages" href="faq.html"> FAQ </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="contacts"
+                                            data-page-parent="pages"
+                                            href="contacts.html"
+                                        >
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="error" data-page-parent="pages" href="404.html">
+                                            Error Page
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="events.html" data-page="events" data-single="true">
+                                <span class="nav-item_text">Events</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="cases.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#casesMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="cases"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="casesMenu"
+                            >
+                                <span class="nav-item_text"> Our Works </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="casesMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item" data-main="true">
+                                        <a class="dropdown-item nav-item" data-page="cases" data-page-parent="cases" href="cases.html">
+                                            Our Works
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="case" data-page-parent="cases" href="case.html">
+                                            Case Details
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="blog-sidebar.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#newsMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="news"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="newsMenu"
+                            >
+                                <span class="nav-item_text"> News </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="newsMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-sidebar"
+                                            data-page-parent="news"
+                                            href="blog-sidebar.html"
+                                        >
+                                            News Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-list"
+                                            data-page-parent="news"
+                                            href="blog-list.html"
+                                        >
+                                            News Horizontal Boxes
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-grid"
+                                            data-page-parent="news"
+                                            href="blog-grid.html"
+                                        >
+                                            News Full Width
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="post-sidebar"
+                                            data-page-parent="news"
+                                            href="post-sidebar.html"
+                                        >
+                                            Single Post Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="post" data-page-parent="news" href="post.html">
+                                            Single Post Full Width
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="shop.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#shopMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="shop"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="shopMenu"
+                            >
+                                <span class="nav-item_text"> Shop </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="shopMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="shop" data-page-parent="shop" href="shop.html">
+                                            Shop
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="shop-list"
+                                            data-page-parent="shop"
+                                            href="shop-list.html"
+                                        >
+                                            Shop List
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="lookbook" data-page-parent="shop" href="lookbook.html">
+                                            Shop Lookbook
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="collection"
+                                            data-page-parent="shop"
+                                            href="collection.html"
+                                        >
+                                            Shop Collection
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product" data-page-parent="shop" href="product.html">
+                                            Shop Product Page
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product2" data-page-parent="shop" href="product2.html">
+                                            Shop Product Big Images
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product3" data-page-parent="shop" href="product3.html">
+                                            Shop Product Big Slider
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="cart" data-page-parent="shop" href="cart.html">
+                                            Shopping Bag
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_user">
+                    <a class="header_user-btn btn btn--outline" href="contacts.html">Get In Touch <i class="icon icon-arrow-right"></i> </a>
+                    <a class="header_user-account" href="#">
+                        <i class="icon-user"></i>
+                    </a>
+                    <a class="header_user-cart addToCart" href="#">
+                        <i class="icon-bag"></i>
+                        <span class="header_user-cart_qty">0</span>
+                    </a>
+                    <span class="header_user-preference">
+                        USD
+                        <span class="header_user-preference_country">
+                            <picture>
+                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                                <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="USA" />
+                            </picture>
+                        </span>
+                    </span>
+                </div>
+                <button
+                    class="header_trigger"
+                    id="headerTrigger"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#headerMenu"
+                    aria-controls="headerMenu"
+                    aria-expanded="false"
+                    type="button"
+                ></button>
+            </div>
+        </header>
+        <ul class="breadcrumbs">
+            <li>
+                <a class="link" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <span>Contacts</span>
+            </li>
+        </ul>
+        <main class="contacts section">
+            <!--  contacts content start  -->
+            <div class="contacts_bg">
+                <picture>
+                    <source data-srcset="img/gradients/06.webp" srcset="img/gradients/06.webp" type="image/webp" />
+                    <img class="lazy" data-src="img/gradients/06.jpg" src="img/gradients/06.jpg" alt="media" />
+                </picture>
+            </div>
+            <div class="container">
+                <div class="contacts_main">
+                    <div class="contacts_main-header">
+                        <div class="contacts_main-header_icon rotate shape">
+                            <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.993 69L34.5 51.2698L26.007 69L16.1104 64.9008L22.6419 46.3582L4.09932 52.8899L0 42.993L17.7302 34.5L0 26.007L4.09932 16.1103L22.6419 22.6418L16.1104 4.09921L26.007 0L34.5 17.7302L42.993 0L52.8899 4.09921L46.3582 22.6418L64.9008 16.1103L69 26.007L51.2698 34.5L69 42.993L64.9008 52.8899L46.3582 46.3582L52.8899 64.9008L42.993 69Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+                        </div>
+                        <h1 class="contacts_main-header_title outlined outlined--black" data-aos="fade-down">Get In Touch</h1>
+                        <h2 class="contacts_main-header_subtitle" data-aos="fade-down">Now we are ready to connect</h2>
+                    </div>
+                    <ul class="contacts_main-info">
+                        <li class="contacts_main-info_item">
+                            <h4 class="title">Follow Us</h4>
+                            <ul class="socials socials--alt">
+                                <li>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-tiktok"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                        <i class="icon-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="contacts_main-info_item">
+                            <h4 class="title">Business Enquiries</h4>
+                            <div class="content">
+                                <a class="link link--underline" href="#">@upcreators_info</a>
+                            </div>
+                        </li>
+                        <li class="contacts_main-info_item">
+                            <h4 class="title">Get In Touch</h4>
+                            <div class="content d-flex flex-column">
+                                <a class="link link--underline" href="tel:+1234567890">+1-202-555-0180</a>
+                                <a class="link link--underline" href="mailto:example@domain.com">email@emailaddress.com</a>
+                            </div>
+                        </li>
+                        <li class="contacts_main-info_item">
+                            <h4 class="title">Location</h4>
+                            <div class="content">
+                                <span>40 Clark Court <span class="linebreak">Dearborn Heights, MI 48127</span></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts_media">
+                    <picture>
+                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                    </picture>
+                </div>
+            </div>
+            <!--  contacts content end  -->
+        </main>
+
+        <script src="js/common.min.js"></script>
+        <script src="js/lottie.min.js"></script>
+    </body>
+</html>

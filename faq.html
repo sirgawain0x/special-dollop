@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>FAQ | UpCreators</title>
+        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
+        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+        <link rel="stylesheet" href="css/faq.min.css" />
+    </head>
+    <body>
+        <header class="header" data-page="faq" data-page-parent="pages">
+            <div class="header_bg">
+                <picture>
+                    <source data-srcset="img/gradients/10.webp" srcset="img/gradients/10.webp" type="image/webp" />
+                    <img class="lazy" data-src="img/gradients/10.png" src="img/gradients/10.png" alt="media" />
+                </picture>
+            </div>
+            <div class="container d-flex">
+                <a class="header_logo logo" href="index.html">
+                    <span class="header_logo-wrapper">
+                        <img src="svg/logo--black.svg" alt="UpCreators" />
+                    </span>
+                    <span class="text">Creators</span>
+                </a>
+                <nav class="header_nav text--medium text--md collapse" id="headerMenu">
+                    <ul class="header_nav-list">
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="index.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#homeMenu"
+                                data-trigger="dropdown"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="homeMenu"
+                                data-page="home"
+                                data-page-parent="home"
+                            >
+                                <span class="nav-item_text"> Home </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="homeMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="home"
+                                            data-page-parent="home"
+                                            href="index.html"
+                                            data-main="true"
+                                        >
+                                            Home Agency
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="streamers"
+                                            data-page-parent="home"
+                                            href="streamers.html"
+                                        >
+                                            Home Streamers
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="home-shop"
+                                            data-page-parent="home"
+                                            href="index-shop.html"
+                                        >
+                                            Home Shop
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+                                <span class="nav-item_text">About</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="#"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#pagesMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="pages"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="pagesMenu"
+                            >
+                                <span class="nav-item_text"> Pages </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="pagesMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="faq" data-page-parent="pages" href="faq.html"> FAQ </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="contacts"
+                                            data-page-parent="pages"
+                                            href="contacts.html"
+                                        >
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="error" data-page-parent="pages" href="404.html">
+                                            Error Page
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="events.html" data-page="events" data-single="true">
+                                <span class="nav-item_text">Events</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="cases.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#casesMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="cases"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="casesMenu"
+                            >
+                                <span class="nav-item_text"> Our Works </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="casesMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item" data-main="true">
+                                        <a class="dropdown-item nav-item" data-page="cases" data-page-parent="cases" href="cases.html">
+                                            Our Works
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="case" data-page-parent="cases" href="case.html">
+                                            Case Details
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="blog-sidebar.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#newsMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="news"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="newsMenu"
+                            >
+                                <span class="nav-item_text"> News </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="newsMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-sidebar"
+                                            data-page-parent="news"
+                                            href="blog-sidebar.html"
+                                        >
+                                            News Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-list"
+                                            data-page-parent="news"
+                                            href="blog-list.html"
+                                        >
+                                            News Horizontal Boxes
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="blog-grid"
+                                            data-page-parent="news"
+                                            href="blog-grid.html"
+                                        >
+                                            News Full Width
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="post-sidebar"
+                                            data-page-parent="news"
+                                            href="post-sidebar.html"
+                                        >
+                                            Single Post Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="post" data-page-parent="news" href="post.html">
+                                            Single Post Full Width
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle"
+                                href="shop.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#shopMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="shop"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="shopMenu"
+                            >
+                                <span class="nav-item_text"> Shop </span>
+                                <span class="icon icon-caret-down-solid"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="shopMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="shop" data-page-parent="shop" href="shop.html">
+                                            Shop
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="shop-list"
+                                            data-page-parent="shop"
+                                            href="shop-list.html"
+                                        >
+                                            Shop List
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="lookbook" data-page-parent="shop" href="lookbook.html">
+                                            Shop Lookbook
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="collection"
+                                            data-page-parent="shop"
+                                            href="collection.html"
+                                        >
+                                            Shop Collection
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product" data-page-parent="shop" href="product.html">
+                                            Shop Product Page
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product2" data-page-parent="shop" href="product2.html">
+                                            Shop Product Big Images
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="product3" data-page-parent="shop" href="product3.html">
+                                            Shop Product Big Slider
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a class="dropdown-item nav-item" data-page="cart" data-page-parent="shop" href="cart.html">
+                                            Shopping Bag
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header_user">
+                    <a class="header_user-btn btn btn--outline" href="contacts.html">Get In Touch <i class="icon icon-arrow-right"></i> </a>
+                    <a class="header_user-account" href="#">
+                        <i class="icon-user"></i>
+                    </a>
+                    <a class="header_user-cart addToCart" href="#">
+                        <i class="icon-bag"></i>
+                        <span class="header_user-cart_qty">0</span>
+                    </a>
+                    <span class="header_user-preference">
+                        USD
+                        <span class="header_user-preference_country">
+                            <picture>
+                                <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                                <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="USA" />
+                            </picture>
+                        </span>
+                    </span>
+                </div>
+                <button
+                    class="header_trigger"
+                    id="headerTrigger"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#headerMenu"
+                    aria-controls="headerMenu"
+                    aria-expanded="false"
+                    type="button"
+                ></button>
+            </div>
+        </header>
+        <ul class="breadcrumbs">
+            <li>
+                <a class="link" href="index.html">Home</a>
+            </li>
+
+            <li>
+                <span>FAQ</span>
+            </li>
+        </ul>
+        <main class="faq">
+            <div class="faq_shapes">
+                <div class="faq_shapes-shape faq_shapes-shape--top">
+                    <picture>
+                        <source data-srcset="img/gradients/10.webp" srcset="img/gradients/10.webp" type="image/webp" />
+                        <img class="lazy" data-src="img/gradients/10.png" src="img/gradients/10.png" alt="media" />
+                    </picture>
+                </div>
+                <div class="faq_shapes-shape faq_shapes-shape--bottom">
+                    <picture>
+                        <source data-srcset="img/gradients/09.webp" srcset="img/gradients/09.webp" type="image/webp" />
+                        <img class="lazy" data-src="img/gradients/09.png" src="img/gradients/09.png" alt="media" />
+                    </picture>
+                </div>
+            </div>
+            <!--  FAQ content start  -->
+            <div class="container">
+                <div class="faq_header">
+                    <div class="wrapper">
+                        <div class="faq_header-icon rotate shape">
+                            <svg width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.993 69L34.5 51.2698L26.007 69L16.1104 64.9008L22.6419 46.3582L4.09932 52.8899L0 42.993L17.7302 34.5L0 26.007L4.09932 16.1103L22.6419 22.6418L16.1104 4.09921L26.007 0L34.5 17.7302L42.993 0L52.8899 4.09921L46.3582 22.6418L64.9008 16.1103L69 26.007L51.2698 34.5L69 42.993L64.9008 52.8899L46.3582 46.3582L52.8899 64.9008L42.993 69Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+                        </div>
+                        <h1 class="faq_header-title outlined outlined--black" data-aos="fade-left">FAQ</h1>
+                        <h2 class="faq_header-subtitle" data-aos="fade-left" data-aos-delay="50">All the questions you often ask</h2>
+                    </div>
+                    <form class="search" action="#" method="get" data-type="search">
+                        <input class="field required" type="search" id="searchQuery" name="searchQuery" placeholder="Search" />
+                        <label for="searchQuery"><i class="icon-search"></i></label>
+                    </form>
+                </div>
+                <div class="faq_content section">
+                    <div class="faq_nav">
+                        <span class="divider"></span>
+                        <ul class="faq_content-filters tags">
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item current" data-filter="*" href="#">All</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".campaign" href="#">Creative campaign</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".tiktok" href="#">TikTok</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".visual" href="#">Visual</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".influencer" href="#">Influencer</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".marketing" href="#">Marketing Strategy</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".brand" href="#">Brand</a>
+                            </li>
+                            <li class="list-item">
+                                <a class="faq_content-filters_filter tags_item" data-filter=".shop" href="#">shop</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="faq_main">
+                        <ul class="questions">
+                            <li class="questions_item tiktok brands visual influencer">
+                                <div class="questions_item-header">
+                                    <h5 class="questions_item-header_title">Question</h5>
+                                    <p class="questions_item-header_main">
+                                        Where aliquam erat volutpat. Proin euismod hendrerit leo id accumsan. Quisque volutpat tempus elit a
+                                        placeratvel rhoncus mauris?
+                                    </p>
+                                </div>
+                                <div class="questions_item-body">
+                                    <h5 class="questions_item-body_title">Answer</h5>
+                                    <div class="questions_item-body_main">
+                                        Nullam sollicitudin lectus sit amet lacus auctor, sed tempor est ullamcorper. In facilisis pulvinar
+                                        arcu sed hendrerit. Fusce sit amet imperdiet tortor. Praesent a porta tortor. Aliquam erat volutpat.
+                                        Proin euismod hendrerit leo id accumsan. Quisque volutpat tempus elit a placerat. Curabitur faucibus
+                                        consectetur arcu, vel rhoncus mauris. Vestibulum ac est ultricies, blandit nisi ut, aliquam elit.
+                                        Mauris at orci
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="questions_item campaign brand marketing">
+                                <div class="questions_item-header">
+                                    <h5 class="questions_item-header_title">Question</h5>
+                                    <p class="questions_item-header_main">
+                                        Where aliquam erat volutpat. Proin euismod hendrerit leo id accumsan. Quisque volutpat tempus elit a
+                                        placeratvel rhoncus mauris?
+                                    </p>
+                                </div>
+                                <div class="questions_item-body">
+                                    <h5 class="questions_item-body_title">Answer</h5>
+                                    <div class="questions_item-body_main">
+                                        Nullam sollicitudin lectus sit amet lacus auctor, sed tempor est ullamcorper. In facilisis pulvinar
+                                        arcu sed hendrerit. Fusce sit amet imperdiet tortor. Praesent a porta tortosollicitudin:
+                                        <ul class="list">
+                                            <li class="list-item">
+                                                <i class="icon-circle icon"></i>
+                                                <p class="text">
+                                                    Sed arcu est, molestie.
+                                                    <a class="link link--underline" href="#">More Information</a>
+                                                </p>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="icon-circle icon"></i>
+                                                <p class="text">
+                                                    Bibendum est ultricies integer quis auctor elit. Dolor purus non enim praesent
+                                                    elementum. Tempus urna
+                                                </p>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="icon-circle icon"></i>
+                                                <p class="text">Fusce facilisis tempor lacinia. Sed arcu est, molestie</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="questions_item tiktok brand shop">
+                                <div class="questions_item-header">
+                                    <h5 class="questions_item-header_title">Question</h5>
+                                    <p class="questions_item-header_main">
+                                        Where aliquam erat volutpat. Proin euismod hendrerit leo id accumsan. Quisque volutpat tempus elit a
+                                        placeratvel rhoncus mauris?
+                                    </p>
+                                </div>
+                                <div class="questions_item-body">
+                                    <h5 class="questions_item-body_title">Answer</h5>
+                                    <div class="questions_item-body_main">
+                                        Nullam sollicitudin lectus sit amet lacus auctor, sed tempor est ullamcorper. In facilisis pulvinar
+                                        arcu sed hendrerit. Fusce sit amet imperdiet tortor. Praesent a porta tortor. Aliquam erat volutpat.
+                                        Proin euismod hendrerit leo id accumsan. Quisque volutpat tempus elit a placerat. Curabitur faucibus
+                                        consectetur arcu, vel rhoncus mauris. Vestibulum ac est ultricies, blandit nisi ut, aliquam elit.
+                                        Mauris at orci
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h5 class="accordion-header" id="toggle1">
+                                    <button
+                                        class="accordion-button h5"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#item1"
+                                        aria-expanded="true"
+                                        aria-controls="item1"
+                                    >
+                                        Sustainable and Green Packaging Materials <i class="icon-angle-down icon"></i>
+                                    </button>
+                                </h5>
+                                <div
+                                    id="item1"
+                                    class="accordion-collapse collapse show"
+                                    aria-labelledby="toggle1"
+                                    data-bs-parent="#faqAccordion"
+                                >
+                                    <div class="accordion-body">
+                                        Congue eu consequat ac felis donec et odio pellentesque diam. At imperdiet dui accumsan sit amet
+                                        nulla. Semper eget duis at tellus at urna condimentum. Risus pretium quam vulputate dignissim
+                                        suspendisse. Est ullamcorper eget
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h5 class="accordion-header" id="toggle2">
+                                    <button
+                                        class="accordion-button h5"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#item2"
+                                        aria-expanded="false"
+                                        aria-controls="item2"
+                                    >
+                                        Shipping & Returns <i class="icon-angle-down icon"></i>
+                                    </button>
+                                </h5>
+                                <div
+                                    id="item2"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="toggle2"
+                                    data-bs-parent="#faqAccordion"
+                                >
+                                    <div class="accordion-body">
+                                        Congue eu consequat ac felis donec et odio pellentesque diam. At imperdiet dui accumsan sit amet
+                                        nulla. Semper eget duis at tellus at urna condimentum. Risus pretium quam vulputate dignissim
+                                        suspendisse. Est ullamcorper eget
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h5 class="accordion-header" id="toggle3">
+                                    <button
+                                        class="accordion-button h5"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#item3"
+                                        aria-expanded="false"
+                                        aria-controls="item3"
+                                    >
+                                        About Brand <i class="icon-angle-down icon"></i>
+                                    </button>
+                                </h5>
+                                <div
+                                    id="item3"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="toggle3"
+                                    data-bs-parent="#faqAccordion"
+                                >
+                                    <div class="accordion-body">
+                                        Congue eu consequat ac felis donec et odio pellentesque diam. At imperdiet dui accumsan sit amet
+                                        nulla. Semper eget duis at tellus at urna condimentum. Risus pretium quam vulputate dignissim
+                                        suspendisse. Est ullamcorper eget
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq_form sticky-parent">
+                        <div class="wrapper" data-sticky="true" data-top="114">
+                            <h4 class="faq_form-title">Ask Your Question</h4>
+                            <form class="faq_form-form contact-form" action="form.php" method="post" data-type="contacts">
+                                <input
+                                    class="field required"
+                                    type="text"
+                                    id="contactsName"
+                                    name="contactsName"
+                                    placeholder="Your Name or Brand"
+                                />
+                                <input
+                                    class="field required"
+                                    type="text"
+                                    data-type="email"
+                                    id="contactsEmail"
+                                    name="contactsEmail"
+                                    placeholder="Your Contact E-mail"
+                                />
+                                <textarea
+                                    class="field required"
+                                    id="contactsMessage"
+                                    name="contactsMessage"
+                                    placeholder="Your Question"
+                                ></textarea>
+                                <button class="btn btn--accent btn--hover-black" type="submit">Send a Question</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  FAQ content end  -->
+        </main>
+        <div class="ticker yellow">
+            <div class="d-none">
+                <span class="ticker-item">new Ideas</span>
+                <span class="ticker-item">Join us</span>
+                <span class="ticker-item">UP Creators</span>
+                <span class="ticker-item">Become trendy</span>
+                <span class="ticker-item">Create a new Brand</span>
+                <span class="ticker-item">new Ideas</span>
+                <span class="ticker-item">Join us</span>
+                <span class="ticker-item">UP Creators</span>
+                <span class="ticker-item">Become trendy</span>
+                <span class="ticker-item">Create a new Brand</span>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_bg">
+                <picture>
+                    <source data-srcset="img/gradients/10.webp" srcset="img/gradients/10.webp" type="image/webp" />
+                    <img class="lazy" data-src="img/gradients/10.jpg" src="img/gradients/10.jpg" alt="media" />
+                </picture>
+            </div>
+            <div class="container">
+                <div class="footer_about">
+                    <div class="footer_about-slogan">
+                        <div class="footer_about-slogan_icon rotate shape">
+                            <svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M44.993 71L36.5 53.2698L28.007 71L18.1104 66.9008L24.6419 48.3582L6.09932 54.8899L2 44.993L19.7302 36.5L2 28.007L6.09932 18.1103L24.6419 24.6418L18.1104 6.09921L28.007 2L36.5 19.7302L44.993 2L54.8899 6.09921L48.3582 24.6418L66.9008 18.1103L71 28.007L53.2698 36.5L71 44.993L66.9008 54.8899L48.3582 48.3582L54.8899 66.9008L44.993 71Z"
+                                    fill="transparent"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                />
+                            </svg>
+                        </div>
+                        <h2 class="footer_about-slogan_title">
+                            Now we’re
+                            <span class="h1 linebreak outlined outlined--white">Talking</span>
+                        </h2>
+                        <p class="footer_about-slogan_text">
+                            Nunc ultrices tellus et libero pretium, id mollis diam bibendum. Pellentesque pellentesque, erat ut sagittis
+                            euismod, mauris nunc iaculis ligula, eu tempus nunc ex at lacus
+                        </p>
+                    </div>
+                    <form class="footer_about-form d-flex" action="#" method="post">
+                        <input class="field" type="text" data-type="email" placeholder="Your Contact E-mail" />
+                        <button class="btn btn--accent btn--hover-o" type="submit">Leave a Request</button>
+                    </form>
+                </div>
+                <div class="footer_main d-flex">
+                    <div class="footer_main-block">
+                        <h4 class="footer_main-block_title">Follow Us</h4>
+                        <ul class="footer_main-block_socials socials">
+                            <li>
+                                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="icon-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="icon-tiktok"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="icon-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="icon-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_main-block">
+                        <h4 class="footer_main-block_title">Get In Touch</h4>
+                        <div class="footer_main-block_content d-flex flex-column">
+                            <a class="link link--underline" href="tel:+1234567890">+1-202-555-0180</a>
+                            <a class="link link--underline" href="mailto:example@domain.com">email@emailaddress.com</a>
+                        </div>
+                    </div>
+                    <div class="footer_main-block">
+                        <h4 class="footer_main-block_title">Business Enquiries</h4>
+                        <div class="footer_main-block_content">
+                            <a class="link link--underline" href="#">@upcreators_info</a>
+                        </div>
+                    </div>
+                    <div class="footer_main-block">
+                        <h4 class="footer_main-block_title">Location</h4>
+                        <div class="footer_main-block_content">
+                            <span>40 Clark Court <span class="linebreak">Dearborn Heights, MI 48127</span></span>
+                        </div>
+                    </div>
+                    <div class="footer_main-block">
+                        <h4 class="footer_main-block_title">Pages</h4>
+                        <ul class="footer_main-block_nav d-flex">
+                            <li>
+                                <a class="nav-link" href="index.html" data-page="home" data-page-parent="home">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="about.html" data-page="about">About</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="cases.html" data-page="cases" data-page-parent="cases">Our Works</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="events.html" data-page="events">Events</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="shop.html" data-page="shop" data-page-parent="shop">Shop</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="blog-sidebar.html" data-page="blog-sidebar" data-page-parent="news">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copy">Copyright@ <span id="currentYear"></span> UpCreators by Merkulove</p>
+        </footer>
+        <!-- cart popup component start -->
+        <div class="cart_popup">
+            <div class="cart_popup-backdrop"></div>
+            <div class="cart_popup-helper">
+                <div class="cart_popup-wrapper">
+                    <div class="cart_popup-header d-flex flex-wrap justify-content-between align-items-center">
+                        <h4 class="success"><i class="icon icon-check"></i> Item Added</h4>
+                        <span class="cartID">Cart Id: 12345</span>
+                        <p class="note">Please note: Item(s) is not reserved until checkout is completed</p>
+                    </div>
+                    <div class="cart_popup-main">
+                        <ul class="cart_popup-main_list">
+                            <li class="list-item">
+                                <div class="media">
+                                    <picture>
+                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="Limited Edition T-Shirt" />
+                                    </picture>
+                                </div>
+                                <div class="main">
+                                    <div class="main_info">
+                                        <div class="wrapper">
+                                            <span class="main_info-label">Clothing</span>
+                                            <a class="main_info-remove" href="#">
+                                                <span class="text">remove</span>
+                                                <i class="icon icon-close"></i>
+                                            </a>
+                                        </div>
+                                        <h6 class="main_info-title">Limited Edition T-Shirt</h6>
+                                        <ul class="main_info-details">
+                                            <li>
+                                                <span class="property">size:</span>
+                                                <span class="value">s</span>
+                                            </li>
+                                            <li>
+                                                <span class="property">color:</span>
+                                                <span class="value">pink</span>
+                                            </li>
+                                        </ul>
+                                        <div class="wrapper">
+                                            <div class="main_info-qty">
+                                                <span class="main_info-qty_label">Qty:</span>
+                                                <div class="qty">
+                                                    <span class="qty_minus control">
+                                                        <i class="icon-minus"></i>
+                                                    </span>
+                                                    <input class="qty_amount" type="number" readonly value="1" min="1" max="99" hidden />
+                                                    <span class="qty_amount-display"></span>
+                                                    <span class="qty_plus control">
+                                                        <i class="icon-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <span class="main_info-price">$320</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <div class="media">
+                                    <picture>
+                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="Red Flame Jacket" />
+                                    </picture>
+                                </div>
+                                <div class="main">
+                                    <div class="main_info">
+                                        <div class="wrapper">
+                                            <span class="main_info-label">Clothing</span>
+                                            <a class="main_info-remove" href="#">
+                                                <span class="text">remove</span>
+                                                <i class="icon icon-close"></i>
+                                            </a>
+                                        </div>
+                                        <h6 class="main_info-title">Red Flame Jacket</h6>
+                                        <ul class="main_info-details">
+                                            <li>
+                                                <span class="property">size:</span>
+                                                <span class="value">s</span>
+                                            </li>
+                                            <li>
+                                                <span class="property">color:</span>
+                                                <span class="value">pink</span>
+                                            </li>
+                                        </ul>
+                                        <div class="wrapper">
+                                            <div class="main_info-qty">
+                                                <span class="main_info-qty_label">Qty:</span>
+                                                <div class="qty">
+                                                    <span class="qty_minus control">
+                                                        <i class="icon-minus"></i>
+                                                    </span>
+                                                    <input class="qty_amount" type="number" readonly value="1" min="1" max="99" hidden />
+                                                    <span class="qty_amount-display"></span>
+                                                    <span class="qty_plus control">
+                                                        <i class="icon-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <span class="main_info-price">$320</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-item">
+                                <div class="media">
+                                    <picture>
+                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
+                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="Festival Necklace" />
+                                    </picture>
+                                </div>
+                                <div class="main">
+                                    <div class="main_info">
+                                        <div class="wrapper">
+                                            <span class="main_info-label">Clothing</span>
+                                            <a class="main_info-remove" href="#">
+                                                <span class="text">remove</span>
+                                                <i class="icon icon-close"></i>
+                                            </a>
+                                        </div>
+                                        <h6 class="main_info-title">Festival Necklace</h6>
+                                        <ul class="main_info-details">
+                                            <li>
+                                                <span class="property">size:</span>
+                                                <span class="value">s</span>
+                                            </li>
+                                            <li>
+                                                <span class="property">color:</span>
+                                                <span class="value">pink</span>
+                                            </li>
+                                        </ul>
+                                        <div class="wrapper">
+                                            <div class="main_info-qty">
+                                                <span class="main_info-qty_label">Qty:</span>
+                                                <div class="qty">
+                                                    <span class="qty_minus control">
+                                                        <i class="icon-minus"></i>
+                                                    </span>
+                                                    <input class="qty_amount" type="number" readonly value="1" min="1" max="99" hidden />
+                                                    <span class="qty_amount-display"></span>
+                                                    <span class="qty_plus control">
+                                                        <i class="icon-plus"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <span class="main_info-price">$320</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart_popup-footer">
+                        <div class="cart_popup-footer_summary d-flex flex-column">
+                            <div class="subtotal">
+                                <span class="subtotal_title">Subtotal</span>
+                                <span class="subtotal_sum">$1320.00</span>
+                            </div>
+                            <div class="total h6">
+                                <span class="total_title">Total</span>
+                                <span class="total_sum">$1320.00</span>
+                            </div>
+                        </div>
+                        <div class="cart_popup-footer_action d-flex">
+                            <a class="btn btn--black" href="cart.html">View options</a>
+                            <a class="btn btn--accent btn--hover-black" href="cart.html">Checkout</a>
+                        </div>
+                        <p class="note">Suspendisse potenti. Fusce id cursus massa. Duis tuc uno venenatis ex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- cart popup component end -->
+        <button class="scrollTrigger" id="scrollTrigger"><i class="icon-to-top"></i></button>
+        <script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js" async=""></script>
+        <script src="https://www.youtube.com/player_api"></script>
+        <script src="js/common.min.js"></script>
+        <script src="js/lottie.min.js"></script>
+
+        <script src="js/faq.min.js"></script>
+        <script src="js/ticker.min.js"></script>
+    </body>
+</html>
